@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="detail_short">
+
+        <item>หัวข้อย่อย 1</item>
+        <item>หัวข้อย่อย 2</item>
+        <item>หัวข้อย่อย 3</item>
+        <item>หัวข้อย่อย 4</item>
+        <item>หัวข้อย่อย 5</item>
+        <item>หัวข้อย่อย 6</item>
+        <item>หัวข้อย่อย 7</item>
+        <item>หัวข้อย่อย 8</item>
+        <item>หัวข้อย่อย 9</item>
+        <item>หัวข้อย่อย 10</item>
+        <item>หัวข้อย่อย 11</item>
+        <item>หัวข้อย่อย 12</item>
+        <item>หัวข้อย่อย 13</item>
+        <item>หัวข้อย่อย 14</item>
+        <item>หัวข้อย่อย 15</item>
+        <item>หัวข้อย่อย 16</item>
+        <item>หัวข้อย่อย 17</item>
+        <item>หัวข้อย่อย 18</item>
+        <item>หัวข้อย่อย 19</item>
+        <item>หัวข้อย่อย 20</item>
+
+    </string-array>
+
+</resources>
