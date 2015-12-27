@@ -3,4 +3,5 @@
     <string name="header">Traffic</string>
     <string name="header1">จราจร</string>
     <string name="string_bottom">ABOUNT ME</string>
+    <string name="header_detail">รายละเอียด</string>
 </resources>
