@@ -1,6 +1,8 @@
 package thailand.wangtrakul.sirapopb.mytraffic;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         bindWidget();
         // Button Controller.
         bottonController();
+
     } // Main Method.
 
     private void bindWidget() {
@@ -38,8 +41,15 @@ public class MainActivity extends AppCompatActivity {
                 // Sound Effect.
                 MediaPlayer buttonMediaPlayer = MediaPlayer.create(getBaseContext(), R.raw.bee);
                 buttonMediaPlayer.start();
+
+                //Intent to WebView.
+                Intent objIntent = new Intent(Intent.ACTION_VIEW);
+                objIntent.setData(Uri.parse("https://youtu.be/mw2kKyJu9gY")); // Video view.
+                startActivity(objIntent);
+
             }// Event.
         });
+
     } // Button Controller.
 
 }// This is Main Start.
